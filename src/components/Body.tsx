@@ -11,7 +11,7 @@ interface BodyProps {
   footer : boolean;
 }
 
-export default function Body({  sidebar,header, children, footer }: BodyProps) {
+export default function Body({ sidebar,header, children, footer }: BodyProps) {
   return (
     <Container>
       <Stack direction="vertical">

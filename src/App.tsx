@@ -17,8 +17,8 @@ function App() {
         <Routes>
           <Route path="/" element={<LandingPage/>} />
           <Route path="/UserPage/:username" element={<UserPage />} />
-          <Route path="/alcoholic" element={AlcoholicDrinks()} />
-          <Route path="/nonalcoholic" element={NonAlcoholicDrinks()} />
+          <Route path="/alcoholic" element={<AlcoholicDrinks />} />
+          <Route path="/nonalcoholic" element={<NonAlcoholicDrinks />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<Register />} />
           <Route path="/logout" element={<Logout />} />

@@ -52,9 +52,7 @@ export default function Learn() {
                         <p>TYPE : {ingredient.strType}</p>
                         <p>ALCOHOL : {ingredient.strAlcohol}</p>
                         <p>ABV : {ingredient.strABV}</p>
-                    </div>
-
-                    
+                    </div>                    
                 ))
             )}
         </div>

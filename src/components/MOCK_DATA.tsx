@@ -378,66 +378,7 @@ export const Mock_Data=  [
       strCreativeCommonsConfirmed: 'No',
       dateModified: '2016-07-18 22:31:38'
     },
-    // {
-    //   idDrink: '178318',
-    //   strDrink: '747 Drink',
-    //   strDrinkAlternate: null,
-    //   strTags: null,
-    //   strVideo: null,
-    //   strCategory: 'Cocktail',
-    //   strIBA: null,
-    //   strAlcoholic: 'Alcoholic',
-    //   strGlass: 'Highball glass',
-    //   strInstructions: 'Fill a Collins glass with ice.\r\n' +
-    //     'Pour in vodka, lime cordial, and cranberry juice.\r\n' +
-    //     'Fill up with Sprite.\r\n' +
-    //     'Garnish with a Lime wheel or some cranberries',
-    //   strInstructionsES: null,
-    //   strInstructionsDE: null,
-    //   strInstructionsFR: null,
-    //   strInstructionsIT: '\r\n' +
-    //     'Riempi un bicchiere Collins di ghiaccio.\r\n' +
-    //     'Versare la vodka, lo sciroppo di lime e il succo di mirtillo rosso.\r\n' +
-    //     'Riempi con Sprite.\r\n' +
-    //     'Guarnire con una fetta di lime o dei mirtilli rossi',
-    //   'strInstructionsZH-HANS': null,
-    //   'strInstructionsZH-HANT': null,
-    //   strDrinkThumb: 'https://www.thecocktaildb.com/images/media/drink/i9suxb1582474926.jpg',
-    //   strIngredient1: 'Vodka',
-    //   strIngredient2: 'Roses sweetened lime juice',
-    //   strIngredient3: 'Cranberry Juice',
-    //   strIngredient4: 'Sprite',
-    //   strIngredient5: null,
-    //   strIngredient6: null,
-    //   strIngredient7: null,
-    //   strIngredient8: null,
-    //   strIngredient9: null,
-    //   strIngredient10: null,
-    //   strIngredient11: null,
-    //   strIngredient12: null,
-    //   strIngredient13: null,
-    //   strIngredient14: null,
-    //   strIngredient15: null,
-    //   strMeasure1: '1 oz',
-    //   strMeasure2: '1 oz',
-    //   strMeasure3: '1 oz',
-    //   strMeasure4: 'Top',
-    //   strMeasure5: '',
-    //   strMeasure6: '',
-    //   strMeasure7: '',
-    //   strMeasure8: null,
-    //   strMeasure9: null,
-    //   strMeasure10: null,
-    //   strMeasure11: null,
-    //   strMeasure12: null,
-    //   strMeasure13: null,
-    //   strMeasure14: null,
-    //   strMeasure15: null,
-    //   strImageSource: null,
-    //   strImageAttribution: null,
-    //   strCreativeCommonsConfirmed: 'Yes',
-    //   dateModified: null
-    // },
+
     {
       idDrink: '14029',
       strDrink: '57 Chevy with a White License Plate',

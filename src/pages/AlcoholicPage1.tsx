@@ -18,12 +18,12 @@ export default function AlcoholicDrinks() {
   const [arrayOfDrinks, setArrayOfDrinks] = useState<detailsDrink[]>([])
   
   useEffect(() =>{
-    setArrayOfDrinks(Mock_Data.slice(page, page + number)) ///// still works
+    setArrayOfDrinks(Mock_Data.slice(page, page + number))
     console.log(arrayOfDrinks)
   }, [page])
   
   function handleNextClick() {
-    page + number > Mock_Data.length ? setPage(page) : setPage(page + number)
+    page + number > Mock_Data.length ? setPage(page ) : setPage(page + number)
   }
   
   function handlePreviousClick() {

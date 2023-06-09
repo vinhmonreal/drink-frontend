@@ -1,6 +1,5 @@
 
 import { useEffect, useState } from "react"
-import { Mock_Data } from "../components/MOCK_DATA"
 import { detailsDrink } from "../components/DisPlayDrinksOnPage"
 import { ButtonAdd, ButtonRemove } from "../components/ButtonAddRemove"
 import Body from "../components/Body"
@@ -18,12 +17,12 @@ export default function AlcoholicDrinks() {
   const [arrayOfDrinks, setArrayOfDrinks] = useState<detailsDrink[]>([])
   
   useEffect(() =>{
-    setArrayOfDrinks(Mock_Data_Nonalcoholic.slice(page, page + number)) ///// still works
+    setArrayOfDrinks(Mock_Data_Nonalcoholic.slice(page, page + number)) 
     console.log(arrayOfDrinks)
   }, [page])
   
   function handleNextClick() {
-    page + number > Mock_Data.length ? setPage(page) : setPage(page + number)
+    page + number > Mock_Data_Nonalcoholic.length ? setPage(page ) : setPage(page + number)
   }
   
   function handlePreviousClick() {
@@ -95,9 +94,4 @@ function DisplayDrinksOnPage ({ arrayOfDrinks, route,token, username}: { arrayOf
     </Body>
   )
 }
-
-// useEffect(()=>{
-//   const a = document.getElementsByClassName('hstack')[0] as HTMLElement
-//   a.style.display = 'none'
-// },[])
 
